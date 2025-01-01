@@ -8,6 +8,7 @@
     <title>My Profile</title>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="slide.css">
 </head>
 
 <body>
@@ -23,6 +24,41 @@
             <a href="#contact">CONTACT</a>
         </nav>
     </header>
+    <section class="slide" id="slide">
+        <!-- <h2 class="heading">Sản phẩm<span>Mới nhất</span></h2> -->
+        <div class="slide-container">
+            <div class="slider">
+                <div class="list">
+                    <div class="item">
+                        <img src="./myproject/image/project/anh1.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="./myproject/image/project/anh2.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="./myproject/image/project/anh3.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="./myproject/image/project/anh1.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="./myproject/image/project/anh2.jpg" alt="">
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button id="prev"><</button>
+                    <button id="next">></button>
+                </div>
+                <ul class="dots">
+                    <li class="active"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+    </section>
     <section class="home" id="home">
         <div class="home-content">
             <h3>Hello,It's Me</h3>
@@ -38,7 +74,7 @@
             <a href="C:\Users\shrey\Downloads\B.-Software-Engineer.docx" class="btn">Download CV</a>
         </div>
         <div class="home-img">
-            <img src="./myproject/image/avt.jpg" alt="">
+            <img src="./myproject/image/avt.png" alt="">
         </div>
     </section>
     <section class="about" id="about">
@@ -49,14 +85,12 @@
             <h2 class="heading">About<span>Me</span></h2>
             <h3>Designer</h3>
             <h3>Thiết kế & Quay phim</h3>
-            <p>Chuyên gia đồ họa với kinh nghiệm trong việc thiết kế đồ họa sáng tạo và quay phim. Thành thạo các công
-                cụ thiết kế và quay phim, mang đến những sản phẩm hình ảnh ấn tượng và chất lượng cao.</p>
+            <p>Chuyên gia đồ họa với kinh nghiệm trong việc thiết kế đồ họa sáng tạo và quay phim. Thành thạo các công cụ thiết kế và quay phim, mang đến những sản phẩm hình ảnh ấn tượng và chất lượng cao.</p>
             <a href="#" class="btn">Đọc thêm</a>
         </div>
     </section>
     <section class="services" id="services">
         <h2 class="heading">Our<span>Services</span></h2>
-
         <div class="services-container">
             <div class="services-box">
                 <i class='bx bx-video'></i>
@@ -110,7 +144,6 @@
             </div>
         </div>
     </section>
-    
     <section class="contact" id="contact">
         <h2 class="heading">Contact<span>ME!</span></h2>
         <div class="contact-info">
@@ -123,8 +156,6 @@
         </div>
         <span id="msg"></span>
     </section>
-    
-
     <footer class="footer">
         <div class="footer-text">
             <p>Copyright &copy; 2023 by HieuSmile | All Rights Reserved.</p>
@@ -134,8 +165,8 @@
         </div>
     </footer>
 
+    <script src="app.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
-
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="script.js"></script>
     <script>
